@@ -1,9 +1,9 @@
 #screen{
-    background: cornsilk;
+    background: rgb(194, 191, 191);
 }
 body{
     margin: 0;
-    background: black;
+    background: rgb(130, 168, 105);
     overflow: hidden;
     text-align: center;
 }
