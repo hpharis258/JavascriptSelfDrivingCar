@@ -1,12 +1,21 @@
 class Controls {
-    constructor()
+    constructor(type)
     {
         this.forward = false;
         this.left=false;
         this.right=false;
         this.reverse=false;
-    
-        this.#addKeyboardListeners();
+        
+        switch(type)
+        {
+            case "KEYS":
+                this.#addKeyboardListeners();
+                break;
+            case "DUMMY":
+                this.forward=true;
+                break;
+        }
+        
     }
     // # Means that this is a private method only accessible within the class
     #addKeyboardListeners(){
@@ -25,7 +34,7 @@ class Controls {
                     this.reverse=true;
                     break;
             }
-        console.table(this);
+        //console.table(this);
         }
         document.onkeyup=(event)=>{
             switch(event.key){
@@ -42,7 +51,7 @@ class Controls {
                     this.reverse=false;
                     break;
             }
-            console.table(this);
+            //console.table(this);
         }
     }
 
