@@ -2,7 +2,7 @@
 
 A browser-based self-driving car simulation built with plain JavaScript. The project trains and evolves car agents using a simple neural network, sensor feedback, and a road simulation.
 
-![Self-driving car simulation](./JavascriptSelfDrivingCar/Ffi1GFev18.png)
+![Self-driving car simulation](https://github.com/hpharis258/JavascriptSelfDrivingCar/blob/main/Ffi1GFev18.png)
 
 ## Features
 
